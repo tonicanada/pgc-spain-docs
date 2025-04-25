@@ -46,7 +46,13 @@ const config = {
       indexName: process.env.ALGOLIA_INDEX_NAME,
       contextualSearch: true,
       searchParameters: {},
-    }
+    },
+    metadata: [
+      {
+        name: "algolia-site-verification",
+        content: "7FD546744E8EA6D0",
+      },
+    ],
   }),
 };
 
