@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpgcpymes_spain_docusaurus=self.webpackChunkpgcpymes_spain_docusaurus||[]).push([[8158],{8158:(s,a,u)=>{u.r(a),u.d(a,{DocSearchModal:()=>c.a1});var c=u(5600)}}]);
