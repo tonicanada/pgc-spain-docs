@@ -48,13 +48,13 @@ module.exports = {
                   type: "doc",
                   id: "plan-de-cuentas/financiacion-basica/capital/socios-por-desembolsos-no-exigidos/1030-capital-social",
                   label:
-                    "1030. Socios por desembolsos no exigidos, capital social",
+                    "1030. Capital social",
                 },
                 {
                   type: "doc",
                   id: "plan-de-cuentas/financiacion-basica/capital/socios-por-desembolsos-no-exigidos/1034-capital-pendiente-inscripcion",
                   label:
-                    "1032. Socios por desembolsos no exigidos, capital pendiente de inscripción",
+                    "1034. Capital pendiente de inscripción",
                 },
               ],
             },
@@ -70,13 +70,13 @@ module.exports = {
                   type: "doc",
                   id: "plan-de-cuentas/financiacion-basica/capital/socios-por-aportaciones-no-dinerarias-pendientes/1040-capital-social",
                   label:
-                    "1040. Socios por aportaciones no dinerarias pendientes, capital social",
+                    "1040. Capital social",
                 },
                 {
                   type: "doc",
                   id: "plan-de-cuentas/financiacion-basica/capital/socios-por-aportaciones-no-dinerarias-pendientes/1044-capital-pendiente-inscripcion",
                   label:
-                    "1044. Socios por aportaciones no dinerarias pendientes, capital pendiente de inscripción",
+                    "1044. Capital pendiente de inscripción",
                 },
               ],
             },
@@ -206,10 +206,12 @@ module.exports = {
                 {
                   type: "doc",
                   id: "plan-de-cuentas/financiacion-basica/subvenciones-donaciones-legados-y-otros-ajustes-en-patrimonio-neto/ingresos-fiscales-a-distribuir-en-varios-ejercicios/1370-por-diferencias-permanentes",
+                  label: "1370. Por diferencias permanentes",
                 },
                 {
                   type: "doc",
                   id: "plan-de-cuentas/financiacion-basica/subvenciones-donaciones-legados-y-otros-ajustes-en-patrimonio-neto/ingresos-fiscales-a-distribuir-en-varios-ejercicios/1371-por-deducciones-y-bonificaciones",
+                  label: "1371. Por deducciones y bonificaciones",
                 },
               ],
             },
@@ -265,18 +267,22 @@ module.exports = {
                 {
                   type: "doc",
                   id: "plan-de-cuentas/financiacion-basica/deudas-a-largo-plazo-con-caracteristicas-especiales/desembolsos-no-exigidos-por-acciones-o-participaciones-consideradas-como-pasivos-financieros/1533-empresas-del-grupo",
+                  label: "1533. Empresas del grupo",
                 },
                 {
                   type: "doc",
                   id: "plan-de-cuentas/financiacion-basica/deudas-a-largo-plazo-con-caracteristicas-especiales/desembolsos-no-exigidos-por-acciones-o-participaciones-consideradas-como-pasivos-financieros/1534-empresas-asociadas",
+                  label: "1534. Empresas asociadas",
                 },
                 {
                   type: "doc",
                   id: "plan-de-cuentas/financiacion-basica/deudas-a-largo-plazo-con-caracteristicas-especiales/desembolsos-no-exigidos-por-acciones-o-participaciones-consideradas-como-pasivos-financieros/1535-otras-partes-vinculadas",
+                  label: "1535. Otras partes vinculadas",
                 },
                 {
                   type: "doc",
                   id: "plan-de-cuentas/financiacion-basica/deudas-a-largo-plazo-con-caracteristicas-especiales/desembolsos-no-exigidos-por-acciones-o-participaciones-consideradas-como-pasivos-financieros/1536-otros-desembolsos-no-exigidos",
+                  label: "1536. Otros desembolsos no exigidos",
                 },
               ],
             },
@@ -292,14 +298,17 @@ module.exports = {
                 {
                   type: "doc",
                   id: "plan-de-cuentas/financiacion-basica/deudas-a-largo-plazo-con-caracteristicas-especiales/aportaciones-no-dinerarias-pendientes-por-acciones-o-participaciones-consideradas-como-pasivos-financieros/1543-empresas-del-grupo",
+                  label: "1543. Empresas del grupo",
                 },
                 {
                   type: "doc",
                   id: "plan-de-cuentas/financiacion-basica/deudas-a-largo-plazo-con-caracteristicas-especiales/aportaciones-no-dinerarias-pendientes-por-acciones-o-participaciones-consideradas-como-pasivos-financieros/1544-empresas-asociadas",
+                  label: "1544. Empresas asociadas",
                 },
                 {
                   type: "doc",
                   id: "plan-de-cuentas/financiacion-basica/deudas-a-largo-plazo-con-caracteristicas-especiales/aportaciones-no-dinerarias-pendientes-por-acciones-o-participaciones-consideradas-como-pasivos-financieros/1545-otras-partes-vinculadas",
+                  label: "1545. Otras partes vinculadas",
                 },
                 {
                   type: "doc",
