@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Documentación PGC España',
@@ -21,7 +23,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars/sidebars.js'),
-          editUrl: 'https://github.com/tu_usuario/pgc-docusaurus/tree/main/',
+          editUrl: 'https://github.com/tonicanada/pgc-spain-docs/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -38,6 +40,13 @@ const config = {
         { to: '/docs/plan-de-cuentas', label: 'Plan de cuentas', position: 'left' }
       ],
     },
+    algolia: {
+      appId: process.env.ALGOLIA_APP_ID,
+      apiKey: process.env.ALGOLIA_API_KEY,
+      indexName: process.env.ALGOLIA_INDEX_NAME,
+      contextualSearch: true,
+      searchParameters: {},
+    }
   }),
 };
 
