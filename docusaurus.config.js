@@ -11,7 +11,7 @@ const config = {
   baseUrl: '/pgc-spain-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/20250427_bizmotion_logo.io',
   i18n: {
     defaultLocale: 'es',
     locales: ['es'],

@@ -47,14 +47,12 @@ module.exports = {
                 {
                   type: "doc",
                   id: "plan-de-cuentas/financiacion-basica/capital/socios-por-desembolsos-no-exigidos/1030-capital-social",
-                  label:
-                    "1030. Capital social",
+                  label: "1030. Capital social",
                 },
                 {
                   type: "doc",
                   id: "plan-de-cuentas/financiacion-basica/capital/socios-por-desembolsos-no-exigidos/1034-capital-pendiente-inscripcion",
-                  label:
-                    "1034. Capital pendiente de inscripción",
+                  label: "1034. Capital pendiente de inscripción",
                 },
               ],
             },
@@ -69,14 +67,12 @@ module.exports = {
                 {
                   type: "doc",
                   id: "plan-de-cuentas/financiacion-basica/capital/socios-por-aportaciones-no-dinerarias-pendientes/1040-capital-social",
-                  label:
-                    "1040. Capital social",
+                  label: "1040. Capital social",
                 },
                 {
                   type: "doc",
                   id: "plan-de-cuentas/financiacion-basica/capital/socios-por-aportaciones-no-dinerarias-pendientes/1044-capital-pendiente-inscripcion",
-                  label:
-                    "1044. Capital pendiente de inscripción",
+                  label: "1044. Capital pendiente de inscripción",
                 },
               ],
             },
@@ -397,8 +393,7 @@ module.exports = {
             },
             {
               type: "category",
-              label:
-                "163. Otras deudas a largo plazo con partes vinculadas",
+              label: "163. Otras deudas a largo plazo con partes vinculadas",
               link: {
                 type: "doc",
                 id: "plan-de-cuentas/financiacion-basica/deudas-a-largo-plazo-con-partes-vinculadas/otras-deudas-a-largo-plazo/163-otras-deudas-a-largo-plazo",
@@ -422,7 +417,8 @@ module.exports = {
         },
         {
           type: "category",
-          label: "17. Deudas a largo plazo por préstamos recibidos, empréstitos y otros concecptos",
+          label:
+            "17. Deudas a largo plazo por préstamos recibidos, empréstitos y otros concecptos",
           link: {
             type: "doc",
             id: "plan-de-cuentas/financiacion-basica/deudas-a-largo-plazo-por-prestamos-recibidos-emprestitos-y-otros-conceptos/17-deudas-a-largo-plazo-por-prestamos-recibidos-emprestitos-y-otros-conceptos",
@@ -476,7 +472,8 @@ module.exports = {
         },
         {
           type: "category",
-          label: "18. Pasivos por fianzas, garantías y otros conceptos a largo plazo",
+          label:
+            "18. Pasivos por fianzas, garantías y otros conceptos a largo plazo",
           link: {
             type: "doc",
             id: "plan-de-cuentas/financiacion-basica/pasivos-por-fianzas-garantias-y-otros-conceptos-a-largo-plazo/18-pasivos-por-fianzas-garantias-y-otros-conceptos-a-largo-plazo",
@@ -530,8 +527,6 @@ module.exports = {
             },
           ],
         },
-        
-        
       ],
     },
     {
@@ -543,29 +538,115 @@ module.exports = {
       },
       items: [
         {
-          type: "doc",
-          id: "plan-de-cuentas/activo-no-corriente/20-inmovilizado-intangible",
-          label: "20. Inmovilizado intangible",
+          type: "category",
+          label: "20. Inmovilizaciones intangibles",
+          link: {
+            type: "doc",
+            id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-intangibles/20-inmovilizaciones-intangibles",
+          },
+          items: [
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-intangibles/200-investigacion",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-intangibles/201-desarrollo",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-intangibles/202-concesiones-administrativas",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-intangibles/203-propiedad-industrial",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-intangibles/205-derechos-de-traspaso",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-intangibles/206-aplicaciones-informaticas",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-intangibles/209-anticipos-para-inmovilizaciones-intangibles",
+            },
+          ],
         },
         {
-          type: "doc",
-          id: "plan-de-cuentas/activo-no-corriente/21-inmovilizado-material",
-          label: "21. Inmovilizado material",
+          type: "category",
+          label: "21. Inmovilizaciones materiales",
+          link: {
+            type: "doc",
+            id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales/21-inmovilizaciones-materiales",
+          },
+          items: [],
         },
         {
-          type: "doc",
-          id: "plan-de-cuentas/activo-no-corriente/22-inversiones-inmobiliarias",
+          type: "category",
           label: "22. Inversiones inmobiliarias",
+          link: {
+            type: "doc",
+            id: "plan-de-cuentas/activo-no-corriente/inversiones-inmobiliarias/22-inversiones-inmobiliarias",
+          },
+          items: [],
         },
         {
-          type: "doc",
-          id: "plan-de-cuentas/activo-no-corriente/23-inversiones-empresas-grupo",
-          label: "23. Inversiones en empresas del grupo",
+          type: "category",
+          label: "23. Inversiones materiales en curso",
+          link: {
+            type: "doc",
+            id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales-en-curso/23-inmovilizaciones-materiales-en-curso",
+          },
+          items: [],
         },
         {
-          type: "doc",
-          id: "plan-de-cuentas/activo-no-corriente/24-inversiones-financieras-largo-plazo",
-          label: "24. Inversiones financieras a largo plazo",
+          type: "category",
+          label:
+            "24. Inversiones financieras a largo plazo en partes vinculadas",
+          link: {
+            type: "doc",
+            id: "plan-de-cuentas/activo-no-corriente/inversiones-financieras-a-largo-plazo-en-partes-vinculadas/24-inversiones-financieras-a-largo-plazo-en-partes-vinculadas",
+          },
+          items: [],
+        },
+        {
+          type: "category",
+          label: "25. Otras inversiones financieras a largo plazo",
+          link: {
+            type: "doc",
+            id: "plan-de-cuentas/activo-no-corriente/otras-inversiones-financieras-a-largo-plazo/25-otras-inversiones-financieras-a-largo-plazo",
+          },
+          items: [],
+        },
+        {
+          type: "category",
+          label: "26. Fianzas y depósitos constituidos a largo plazo",
+          link: {
+            type: "doc",
+            id: "plan-de-cuentas/activo-no-corriente/fianzas-y-depositos-constituidos-a-largo-plazo/26-fianzas-y-depositos-constituidos-a-largo-plazo",
+          },
+          items: [],
+        },
+        {
+          type: "category",
+          label: "28. Amortización acumulada del inmovilizado",
+          link: {
+            type: "doc",
+            id: "plan-de-cuentas/activo-no-corriente/amortizacion-acumulada-del-inmovilizado/28-amortizacion-acumulada-del-inmovilizado",
+          },
+          items: [],
+        },
+        {
+          type: "category",
+          label: "29. Deterioro de valor de activos no corrientes",
+          link: {
+            type: "doc",
+            id: "plan-de-cuentas/activo-no-corriente/deterioro-de-valor-de-activos-no-corrientes/29-deterioro-de-valor-de-activos-no-corrientes",
+          },
+          items: [],
         },
       ],
     },
