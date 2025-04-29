@@ -1,5 +1,6 @@
 module.exports = {
   pgcSidebar: [
+    
     {
       type: "doc",
       id: "plan-de-cuentas/plan-de-cuentas",
@@ -582,7 +583,48 @@ module.exports = {
             type: "doc",
             id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales/21-inmovilizaciones-materiales",
           },
-          items: [],
+          items: [
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales/210-terrenos-y-bienes-naturales",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales/211-construcciones",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales/212-instalaciones-tecnicas",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales/213-maquinaria",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales/214-utillaje",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales/215-otras-instalaciones",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales/216-mobiliario",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales/217-equipos-para-procesos-de-informacion",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales/218-elementos-de-transporte",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales/219-otro-inmovilizado-material",
+            },
+          ],
         },
         {
           type: "category",
@@ -591,7 +633,16 @@ module.exports = {
             type: "doc",
             id: "plan-de-cuentas/activo-no-corriente/inversiones-inmobiliarias/22-inversiones-inmobiliarias",
           },
-          items: [],
+          items: [
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inversiones-inmobiliarias/220-inversiones-en-terrenos-y-bienes-naturales",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inversiones-inmobiliarias/221-inversiones-en-construcciones",
+            },
+          ],
         },
         {
           type: "category",
@@ -600,7 +651,32 @@ module.exports = {
             type: "doc",
             id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales-en-curso/23-inmovilizaciones-materiales-en-curso",
           },
-          items: [],
+          items: [
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales-en-curso/230-adaptacion-de-terrenos-y-bienes-naturales",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales-en-curso/231-construcciones-en-curso",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales-en-curso/232-instalaciones-tecnicas-en-montaje",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales-en-curso/233-maquinaria-en-montaje",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales-en-curso/237-equipos-para-procesos-de-informacion-en-montaje",
+            },
+            {
+              type: "doc",
+              id: "plan-de-cuentas/activo-no-corriente/inmovilizaciones-materiales-en-curso/239-anticipos-para-inmovilizaciones-materiales",
+            },
+          ],
         },
         {
           type: "category",
@@ -610,8 +686,40 @@ module.exports = {
             type: "doc",
             id: "plan-de-cuentas/activo-no-corriente/inversiones-financieras-a-largo-plazo-en-partes-vinculadas/24-inversiones-financieras-a-largo-plazo-en-partes-vinculadas",
           },
-          items: [],
+          items: [
+            {
+              type: "category",
+              label:
+                "240. Participaciones a largo plazo en partes vinculadas",
+              link: {
+                type: "doc",
+                id: "plan-de-cuentas/activo-no-corriente/inversiones-financieras-a-largo-plazo-en-partes-vinculadas/participaciones-a-largo-plazo/240-participaciones-a-largo-plazo",
+              },
+              items: [],
+            },
+            {
+              type: "category",
+              label:
+                "241. Valores representativos de deuda a largo plazo de partes vinculadas",
+              link: {
+                type: "doc",
+                id: "plan-de-cuentas/activo-no-corriente/inversiones-financieras-a-largo-plazo-en-partes-vinculadas/valores-representativos-de-deuda-a-largo-plazo/241-valores-representativos-de-deuda-a-largo-plazo",
+              },
+              items: [],
+            },
+            {
+              type: "category",
+              label:
+                "241. Valores representativos de deuda a largo plazo de partes vinculadas",
+              link: {
+                type: "doc",
+                id: "plan-de-cuentas/activo-no-corriente/inversiones-financieras-a-largo-plazo-en-partes-vinculadas/valores-representativos-de-deuda-a-largo-plazo/241-valores-representativos-de-deuda-a-largo-plazo",
+              },
+              items: [],
+            },
+          ],
         },
+
         {
           type: "category",
           label: "25. Otras inversiones financieras a largo plazo",

@@ -21,14 +21,42 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars/sidebars.js'),
-          editUrl: 'https://github.com/tonicanada/pgc-spain-docs/tree/master/',
-        },
+        // docs: {
+        //   sidebarPath: require.resolve('./sidebars/sidebars.js'),
+        //   editUrl: 'https://github.com/tonicanada/pgc-spain-docs/tree/master/',
+        // },
+        docs: false,
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
+    ],
+  ],
+  plugins: [
+    // Instancia "PGC General"
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'pgc-general',                             // ID único
+        path: 'docs',                                  // carpeta docs/
+        routeBasePath: 'docs',                         // URL → /docs/...
+        sidebarPath: require.resolve('./sidebars/sidebars.js'),
+        editUrl: 'https://github.com/tonicanada/pgc-spain-docs/tree/master/',
+      },
+    ],
+    // Instancia "Curso"
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'curso',                          // otro ID único
+        path: 'curso',                        // carpeta sector-publico/
+        routeBasePath: 'curso',               // URL → /sector-publico/...
+        sidebarPath: require.resolve(
+          './sidebars/sidebarsCurso.js'
+        ),
+        editUrl: 'https://github.com/tonicanada/pgc-spain-docs/tree/master/',
+      },
     ],
   ],
   themeConfig: /** @type {import('@docusaurus/preset-classic').ThemeConfig} */ ({
@@ -36,7 +64,7 @@ const config = {
       title: 'PGC Español',
       items: [
         { to: '/', label: 'Home', position: 'left' },
-        { to: '/introduction', label: 'Introducción', position: 'left' },
+        { to: '/curso', label: 'Curso', position: 'left' },
         { to: '/docs/plan-de-cuentas', label: 'Plan de cuentas', position: 'left' }
       ],
     },

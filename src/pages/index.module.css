@@ -3,11 +3,10 @@
  * and scoped locally.
  */
 
-.heroBanner {
+ .heroBanner {
+  background: linear-gradient(135deg, #003366 0%, #0055a5 100%);
+  color: white;
   padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +19,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+.features {
+  padding: 3rem 0;
+}
+
+.featureImage {
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+.courseSection {
+  background-color: #f9f9f9;
+  padding: 4rem 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.courseImage {
+  max-width: 100%;
+  height: auto;
 }
