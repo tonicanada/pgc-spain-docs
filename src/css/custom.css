@@ -44,3 +44,38 @@
 }
 
 
+/* Estilos para centrar y estructurar el bloque contable */
+.accounting-equation-wrapper {
+  text-align: center; /* Centra todo el bloque horizontalmente */
+  margin: 1.5em 0;    /* Espaciado superior e inferior */
+}
+
+/* Estilos para la tabla */
+.accounting-equation {
+  display: inline-table; /* Hace que la tabla se ajuste al contenido */
+  border-spacing: 0;     /* Elimina el espacio entre las celdas */
+  border-collapse: separate;
+  text-align: center;    /* Centra el texto de la tabla */
+}
+
+/* Estilos para cada caja de contenido (A, P, PAT) */
+.accounting-equation td,
+.accounting-equation th {
+  border: none;  /* Elimina los bordes predeterminados */
+}
+
+.accounting-equation .box {
+  border: 2px solid black;   /* Bordes negros alrededor de las celdas */
+  padding: 6px;              /* Espaciado interno */
+  width: 30%;                /* Ancho fijo para las celdas */
+  font-size: 0.95em;         /* Tamaño de fuente */
+}
+
+.accounting-equation .symbol {
+  padding: 0 8px;           /* Espaciado entre símbolos */
+  font-weight: bold;        /* Pone los símbolos en negrita */
+  vertical-align: middle;   /* Alineación vertical de los símbolos */
+  white-space: nowrap;      /* Evita que los símbolos se rompan */
+}
+
+

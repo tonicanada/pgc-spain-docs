@@ -86,3 +86,18 @@ Mi objetivo es que termines este curso entendiendo lo fundamental de la contabil
 ---
 
 > 📌 **Consejo**: Guarda esta página en tus favoritos y ve revisando cada clase conforme estén disponibles en la barra lateral. También puedes suscribirte al canal para recibir notificaciones de los nuevos videos.
+
+
+
+
+<div className="accounting-equation-wrapper">
+  <table className="accounting-equation">
+    <tr>
+      <th className="box">ACTIVOS<br/>Efectivo + 5.000 €</th>
+      <th className="symbol">=</th>
+      <th className="box">PASIVOS</th>
+      <th className="symbol">+</th>
+      <th className="box">PATRIMONIO<br/>Capital + 5.000 €</th>
+    </tr>
+  </table>
+</div>

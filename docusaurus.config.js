@@ -68,12 +68,6 @@ const config = {
             label: "Plan de cuentas",
             position: "left",
           },
-          {
-            href: "https://www.linkedin.com/in/antoniocanada/",
-            position: "right",
-            className: "header-linkedin-icon",
-            "aria-label": "Perfil de LinkedIn",
-          },
         ],
       },
       colorMode: {
