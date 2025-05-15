@@ -282,3 +282,131 @@ Lee las siguientes afirmaciones relacionadas con la ecuación contable y respond
 | 10 | Toda transacción afecta la ecuación contable.                              | ✅ Verdadero | Siempre hay al menos dos cuentas afectadas en equilibrio.                   |
 
 </details>
+
+
+
+<br/><br/>
+
+
+### Ejercicio 1.2.3: Clasificación de cuentas — Activo, Pasivo o Patrimonio
+
+A continuación se presentan diferentes cuentas contables. Clasifícalas correctamente como **Activo (A)**, **Pasivo (P)** o **Patrimonio (PAT)**.
+
+---
+
+#### Cuentas:
+
+1. Bancos  
+2. Préstamos por pagar a largo plazo  
+3. Mobiliario de oficina  
+4. Proveedores  
+5. Capital social  
+6. Resultados acumulados  
+7. Equipos de computación  
+8. IVA por pagar  
+9. Clientes (cuentas por cobrar)  
+10. Edificio  
+11. Acreedores diversos  
+12. Utilidades del ejercicio  
+13. Vehículos  
+14. Anticipo de clientes  
+15. Reserva legal  
+16. Amortización acumulada de activos intangibles  
+17. Derechos de autor  
+18. Obligaciones por pagar  
+19. Inventario de productos terminados  
+20. Capital aportado no suscrito
+
+---
+
+<details>
+<summary><strong>Ver solución</strong></summary>
+
+| Nº  | Cuenta                                            | Clasificación | Justificación                                                                 |
+|-----|---------------------------------------------------|---------------|-------------------------------------------------------------------------------|
+| 1   | Bancos                                            | A             | Es dinero disponible, por tanto un activo circulante.                        |
+| 2   | Préstamos por pagar a largo plazo                 | P             | Es una obligación futura, pasivo no corriente.                               |
+| 3   | Mobiliario de oficina                             | A             | Bien tangible que genera beneficios, activo no corriente.                    |
+| 4   | Proveedores                                       | P             | Deuda por compras a crédito, pasivo corriente.                               |
+| 5   | Capital social                                    | PAT           | Aporte de los socios, parte del patrimonio.                                  |
+| 6   | Resultados acumulados                             | PAT           | Ganancias retenidas o pérdidas, componente del patrimonio.                   |
+| 7   | Equipos de computación                            | A             | Activo no corriente.                                                         |
+| 8   | IVA por pagar                                     | P             | Obligación tributaria, pasivo.                                               |
+| 9   | Clientes (cuentas por cobrar)                     | A             | Derechos de cobro, activo circulante.                                        |
+| 10  | Edificio                                          | A             | Activo fijo.                                                                 |
+| 11  | Acreedores diversos                               | P             | Obligaciones varias, pasivo corriente.                                       |
+| 12  | Utilidades del ejercicio                          | PAT           | Resultado del periodo, parte del patrimonio.                                 |
+| 13  | Vehículos                                         | A             | Activo tangible de largo plazo.                                              |
+| 14  | Anticipo de clientes                              | P             | Dinero recibido por adelantado, obligación futura, pasivo.                   |
+| 15  | Reserva legal                                     | PAT           | Patrimonio reservado por ley.                                                |
+| 16  | Amortización acumulada de activos intangibles     | A (-)         | Cuenta correctora del activo, se presenta restando dentro del activo.        |
+| 17  | Derechos de autor                                 | A             | Activo intangible.                                                           |
+| 18  | Obligaciones por pagar                            | P             | Deuda financiera, pasivo.                                                    |
+| 19  | Inventario de productos terminados                | A             | Bienes disponibles para la venta, activo.                                    |
+| 20  | Capital aportado no suscrito                      | Ninguna (*)   | No se reconoce contablemente hasta ser suscrito. Puede omitirse del balance. |
+
+---
+
+**Nota:**  
+(*) La cuenta 20 puede considerarse fuera del balance hasta su suscripción formal. Sirve como elemento para el debate contable y depende del marco normativo.
+
+</details>
+
+
+<br/><br/>
+
+
+### Ejercicio 1.2.4: Revisión práctica de la ecuación contable en ERPNext
+
+En este ejercicio, pondrás en práctica tus conocimientos accediendo a una **instancia real de ERPNext**. Tu objetivo es revisar la **ecuación contable (ACTIVO = PASIVO + PATRIMONIO)** al cierre de tres periodos distintos.
+
+#### Instrucciones:
+
+1. Accede a la demo de ERPNext con las siguientes credenciales:
+
+   - **URL:** [https://demo.acmsoftware.cl/](https://demo.acmsoftware.cl/)
+   - **Usuario:** `demo@bizmotion.io`
+   - **Contraseña:** `@_demo_erp!¡`
+
+2. Una vez dentro verifica la ecuación contable de la misma manera que se hizo en el vídeo de la clase, a las siguientes fechas:
+    - 31 de diciembre de 2023
+    - 31 de diciembre de 2024
+    - 31 de marzo de 2025
+
+3. Verifica si se cumple la ecuación contable en cada fecha:  
+   `Activo = Pasivo + Patrimonio`
+
+---
+
+<details>
+<summary><strong>Ver solución</strong></summary>
+
+| Fecha             | Activo (€) | Pasivo (€) | Patrimonio (€) | Utilidad (€) |  ¿Se cumple la ecuación? |
+|-------------------|------------|------------|----------------|--------------|--------------------------|
+| 31-12-2023        | 103.494,99 | 14.893,28  |  100.000,00    |   -11.398,29 |            ✅            |
+| 31-12-2024        | 189.834,61 |  62.383,03 |  135.000,00    |  -7.548,42   |            ✅            |
+| 31-03-2025        | 181.389,30 |  63.815,14 |  135.000,00    |  -17.425,84  |            ✅            |
+
+
+
+</details>
+
+
+<br/><br/>
+
+
+
+### Ejercicio 1.2.5: ¿De dónde vino el dinero? — Analizando el capital aportado (práctica en ERPNext)
+
+Encuentra el capital inicial aportado por los socios en los reportes de ERPNext. ¿Puedes identificar en qué mes fue aportado? Para acceder al ERPNext, usar las credenciales descritas en el ejercicio anterior.
+
+---
+
+<details>
+<summary><strong>Ver solución</strong></summary>
+
+_Completa los valores observados. Recuerda:_
+
+- **Capital inical aportado por los socios:** 100.000 €, en enero de 2023
+
+</details>
