@@ -2,7 +2,7 @@ require("dotenv").config();
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Documentación PGC España",
+  title: "Contabilidad",
   tagline: "Documentación del Plan General de Contabilidad (RD 1514/2007)",
   url: "https://tonicanada.github.io",
   organizationName: "tonicanada",
