@@ -20,7 +20,7 @@ Este minicurso tiene como objetivo ayudarte a entender los fundamentos esenciale
   margin: "0 auto"
 }}>
   <iframe
-    src="https://www.youtube.com/embed/bK-lbpha6Nw?si=2eR51OGEFTlP8py9"
+    src="https://www.youtube.com/embed/bK-lbpha6Nw?list=PLpGDePOeqo4ZHvTGpQGpdgwSCiGEouOie"
     title="Contabilidad fácil: fundamentos & ERPNext - Clase 1"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

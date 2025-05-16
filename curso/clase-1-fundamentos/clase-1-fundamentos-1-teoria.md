@@ -15,7 +15,7 @@ title: 1.1 Teoría
   margin: "0 auto"
 }}>
   <iframe
-    src="https://www.youtube.com/embed/3xrIOom8kvQ"
+    src="https://www.youtube.com/embed/3xrIOom8kvQ?list=PLpGDePOeqo4ZHvTGpQGpdgwSCiGEouOie"
     title="Contabilidad fácil: fundamentos & ERPNext - Clase 1"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
