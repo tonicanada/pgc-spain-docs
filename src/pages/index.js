@@ -13,7 +13,7 @@ export default function Home() {
     <Layout title="Inicio" description="Documentación del PGC Español">
       <header className={clsx("hero", styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
+          <h1 className="hero__title">PGC Español</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
