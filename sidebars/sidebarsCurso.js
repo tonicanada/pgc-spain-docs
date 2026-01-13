@@ -24,7 +24,7 @@ module.exports = {
             }
           ]
         },
-                {
+        {
           type: "category",  // "Clase 1. Fundamentos" es una categoría dentro de "Curso Contabilidad"
           label: "Clase 2. Asientos Contables",
           items: [
@@ -37,6 +37,17 @@ module.exports = {
               type: "doc",
               id: "clase-2-asientos-contables/clase-2-asientos-contables-2-ejercicios",
               label: "2.2 Ejercicios"
+            }
+          ]
+        },
+        {
+          type: "category", 
+          label: "Clase 3. Estados Financieros",
+          items: [
+            {
+              type: "doc",
+              id: "clase-3-estados-financieros/clase-3-estados-financieros-1-teoria-parte-1",
+              label: "3.1 Teoría"
             }
           ]
         }

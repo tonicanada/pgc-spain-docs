@@ -1,11 +1,9 @@
 ---
-id: clase-2-asientos-contables-1-teoria
-title: 2.1 Teoría
+id: clase-3-estados-financieros-1-teoria-parte-1
+title: 3.1 Teoría (Parte 1)
 ---
 
-
-
-📺 **Ver clase 2:**  
+📺 **Ver clase 3 (Teoría – Parte 1):**
 
 <div style={{
   position: "relative",
@@ -16,8 +14,8 @@ title: 2.1 Teoría
   margin: "0 auto"
 }}>
   <iframe
-    src="https://www.youtube.com/embed/vLYa1OWarBs?list=PLpGDePOeqo4ZHvTGpQGpdgwSCiGEouOie"
-    title="Contabilidad fácil: fundamentos & ERPNext - Clase 1"
+    src="https://www.youtube.com/embed/vio_b_U5HxQ?list=PLpGDePOeqo4ZHvTGpQGpdgwSCiGEouOie"
+    title="Contabilidad fácil: fundamentos & ERPNext - Clase 3 (Teoría - Parte 1)"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowFullScreen

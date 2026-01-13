@@ -410,3 +410,8 @@ _Completa los valores observados. Recuerda:_
 - **Capital inical aportado por los socios:** 100.000 €, en enero de 2023
 
 </details>
+
+
+
+
+
