@@ -51,7 +51,7 @@ module.exports = {
             },
             {
               type: "doc",
-              id: "clase-3-estados-financieros/clase-3-estados-financieros-1-teoria-parte-1",
+              id: "clase-3-estados-financieros/clase-3-estados-financieros-1-teoria-parte-2",
               label: "3.2 Teoría (Parte 2)"
             },
             {
