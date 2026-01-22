@@ -41,13 +41,23 @@ module.exports = {
           ]
         },
         {
-          type: "category", 
+          type: "category",
           label: "Clase 3. Estados Financieros",
           items: [
             {
               type: "doc",
               id: "clase-3-estados-financieros/clase-3-estados-financieros-1-teoria-parte-1",
-              label: "3.1 Teoría"
+              label: "3.1 Teoría (Parte 1)"
+            },
+            {
+              type: "doc",
+              id: "clase-3-estados-financieros/clase-3-estados-financieros-1-teoria-parte-1",
+              label: "3.2 Teoría (Parte 2)"
+            },
+            {
+              type: "doc",
+              id: "clase-3-estados-financieros/clase-3-estados-financieros-3-ejercicios",
+              label: "3.3 Ejercicios"
             }
           ]
         }

@@ -364,7 +364,7 @@ En este ejercicio, pondrás en práctica tus conocimientos accediendo a una **in
 
 1. Accede a la demo de ERPNext con las siguientes credenciales:
 
-   - **URL:** [https://demo.acmsoftware.cl/](https://demo.acmsoftware.cl/)
+   - **URL:** [https://democurso.acmsoftware.cl/](https://democurso.acmsoftware.cl/)
    - **Usuario:** `demo@bizmotion.io`
    - **Contraseña:** `@_demo_erp!¡`
 
