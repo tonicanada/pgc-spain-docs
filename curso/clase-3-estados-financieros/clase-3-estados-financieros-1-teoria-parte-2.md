@@ -28,3 +28,13 @@ title: 3.2 Teoría (Parte 2)
     }}
   ></iframe>
 </div>
+
+---
+
+📊 **Google Sheet usado en la clase**
+
+En esta clase utilizamos un **Google Sheet con transacciones de ejemplo**, a partir del cual se construyen los distintos **Estados Financieros** (Balance, Estado de Resultados, Flujo de Caja directo e indirecto y Estado de Cambios en el Patrimonio).
+
+👉 **[Acceder al Google Sheet de la clase](https://docs.google.com/spreadsheets/d/1TTge-Z6w89A-Walnxm-Kme4wsLbD2U8Ns3K7HbDC2dA/edit?usp=sharing)**
+
+> 💡 **Recomendación**: haz una copia del documento en tu propio Drive para poder modificar fechas, transacciones y entender mejor cómo se calculan los estados financieros paso a paso.
